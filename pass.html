@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function displayOpa() {
+            var pass = prompt("Введите пароль");
+
+            if (pass === "123456") {
+                alert("Пароль введен верно");
+                window.location.href = "doc.html"; // Перенаправление на другой файл
+            } else {
+                alert("Пароль введен неверно");
+                window.location.href = "pass.html";
+            }
+        }
+        window.onload = displayOpa;
+    </script>
+</head>
+<body>
+</body>
+</html>
