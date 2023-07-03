@@ -22,9 +22,22 @@ body {
   p{
     font-size: 30px;
     margin: 5px;
+    text-align: center;
   }
+ .video{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ a{
+  text-decoration: none;
+ }
   
-
+.icon{
+display: flex;
+justify-content: center;
+margin-left: 200px;
+}
 
   .social-icons {
     display: flex;
